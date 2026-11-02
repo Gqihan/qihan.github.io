@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="高千涵的个人主页。本科就读于北京邮电大学，硕士就读于北京大学。">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>高千涵 | Qianhan Gao</title>
+  <style>
+    :root{color-scheme:light;--paper:#f5f4ef;--ink:#203d32;--muted:#657168;--line:#d8ddd4}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    .page{max-width:1040px;margin:auto;min-height:100svh;padding:42px 64px 26px;display:flex;flex-direction:column}
+    header{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.14em}
+    .mark{width:34px;height:34px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;letter-spacing:0;font-family:Georgia,serif;font-size:16px}
+    header span:last-child{color:var(--muted)}
+    main{width:100%;max-width:710px;padding:90px 0 100px;margin:auto 0}
+    .eyebrow{font-size:12px;letter-spacing:.22em;color:var(--muted);margin:0 0 24px;display:flex;align-items:center;gap:12px}
+    .eyebrow::before{content:"";width:24px;height:1px;background:var(--ink)}
+    h1{font-size:clamp(48px,8vw,76px);font-weight:500;line-height:1.25;letter-spacing:.08em;margin:0}
+    .english{font-family:Georgia,"Times New Roman",serif;font-size:27px;font-weight:400;margin:12px 0 48px;letter-spacing:.025em;color:var(--muted)}
+    .intro{font-size:17px;line-height:2;margin:0 0 30px;color:var(--muted)}
+    .education{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;padding:25px 0;gap:30px}
+    .degree{display:block;font-size:12px;letter-spacing:.13em;color:var(--muted);margin-bottom:10px}
+    h2{font-size:19px;font-weight:500;margin:0 0 7px}
+    .university-en{font-size:12px;line-height:1.7;margin:0;color:var(--muted)}
+    .contact{margin-top:35px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+    .contact-label{font-size:12px;letter-spacing:.12em;color:var(--muted)}
+    a{color:var(--ink);text-decoration:none;border-bottom:1px solid #a4b3a8;padding-bottom:4px;font-size:16px;overflow-wrap:anywhere;transition:color .15s,border-color .15s}
+    a:hover{color:#52765e;border-color:#52765e}a:focus-visible{outline:2px solid var(--ink);outline-offset:6px;border-radius:2px}
+    .arrow{margin-left:10px;display:inline-block}
+    footer{border-top:1px solid var(--line);padding-top:18px;font-size:11px;color:var(--muted);letter-spacing:.08em;display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:600px){.page{padding:26px 25px 22px}main{padding:64px 0 70px}.english{font-size:23px;margin-bottom:35px}.intro{font-size:15px}.education{grid-template-columns:1fr;gap:24px;padding:24px 0}.contact{gap:12px}.contact-label{width:100%}a{font-size:15px}header{font-size:10px}footer{font-size:10px}}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header><span class="mark" aria-hidden="true">G.</span><span>PERSONAL HOMEPAGE</span></header>
+    <main>
+      <p class="eyebrow">你好，欢迎来到我的主页</p>
+      <h1>高千涵</h1>
+      <p class="english" lang="en">Qianhan Gao</p>
+      <p class="intro">本科就读于北京邮电大学，硕士就读于北京大学。</p>
+      <section class="education" aria-label="教育背景">
+        <div><span class="degree">本科 / UNDERGRADUATE</span><h2>北京邮电大学</h2><p class="university-en" lang="en">Beijing University of Posts and Telecommunications</p></div>
+        <div><span class="degree">硕士 / MASTER’S</span><h2>北京大学</h2><p class="university-en" lang="en">Peking University</p></div>
+      </section>
+      <div class="contact"><span class="contact-label">联系我</span><a href="mailto:gaoqianhan26@stu.pku.edu.cn">gaoqianhan26@stu.pku.edu.cn<span class="arrow" aria-hidden="true">↗</span></a></div>
+    </main>
+    <footer><span>© 2026 高千涵</span><span>QIANHAN GAO</span></footer>
+  </div>
+</body>
+</html>
